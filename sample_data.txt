@@ -1,0 +1,14 @@
+The abcs instructions say file1 is a file name (including the extension .txt). Does that mean when we use fopen we should put 'file1' as the input or 'file1.txt' as the input?
+You should put the variable file1. fh = fopen(file1)
+
+If i want to create a new file in my code to extract a string or something but still have an additional output file that is supposed to be the solution is that okay? Or can you only have one new file you create if thats all thats being asked?
+That's fine, and is a very cool way of storing information. 
+
+Can we check are actual grade in the class yet on the website?
+Your grades have been uploaded on Canvas. If you wish to calculate your homework average, you must do so manually, since Canvas does not take the resubmission policy into account.
+
+Will we be able to receive the actual test questions back? I want to test the code I wrote down and see if it actually works
+You should be able to view a scanned copy of your test on Gradescope.
+
+So my code is working for every instance except when it it trying to go from say 1 oclock to 11 o’clock. It doesn’t know how to cross over past the 12 oclock hour. I’ve tried several different ways to fix it but none of them are working. Is there something I am missing? 
+Look at the mod function.
