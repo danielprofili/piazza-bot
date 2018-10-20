@@ -15,7 +15,9 @@ def add_text(convo,r_text):
 
 p = piazza_api.Piazza()
 print('Piazza Login')
-p.user_login()
+email = input('Email: ')
+password = input('Password: ')
+p.user_login(email=email, password=password)
 out_file = open('responses.txt','w')
 
 class_url = sys.argv[1]
