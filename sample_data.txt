@@ -12,3 +12,4 @@ You should be able to view a scanned copy of your test on Gradescope.
 
 So my code is working for every instance except when it it trying to go from say 1 oclock to 11 o’clock. It doesn’t know how to cross over past the 12 oclock hour. I’ve tried several different ways to fix it but none of them are working. Is there something I am missing? 
 Look at the mod function.
+
